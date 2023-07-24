@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- home strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="simple_blog_string">Simple Blog</string>
+	<string name="article_1_string">Article 1</string>
+	<string name="text_goes_here_string">text goes here</string>
+	<string name="vector">vector</string>
+
+	<string name="titre_string">Titre</string>
+	<string name="contenu_string">Contenu</string>
+	<string name="ajouter_un_article_string">Ajouter un article</string>
+	<string name="simpleblog_string">SimpleBlog</string>
+	<string name="ajouter_string">AJOUTER</string>
+
+	<string name="ecrit_par_john_doe_string">Ecrit par John Doe</string>
+	<string name="_21_novembre_2022_string">21 Novembre 2022</string>
+	<string name="text">text goes here</string>
+</resources>

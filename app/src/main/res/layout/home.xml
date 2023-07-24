@@ -1,0 +1,151 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/home" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_home_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__home_ek2"
+					android:background="@drawable/_bg__home_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="393dp"
+					android:layout_height="852dp" />
+
+
+				<RelativeLayout android:id="@+id/frame_1"
+					android:layout_marginTop="105dp"
+					android:layout_marginStart="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout
+						android:id="@+id/frame_3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="-70dp">
+
+
+						<RelativeLayout
+							android:id="@+id/articles"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="58dp">
+
+
+							<RelativeLayout
+								android:id="@+id/article_item"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp">
+
+								<View
+									android:id="@+id/rectangle_1"
+									android:layout_width="353dp"
+									android:layout_height="139dp"
+									android:layout_marginStart="0dp"
+									android:layout_marginTop="0dp"
+									android:background="@drawable/rectangle_1_shape" />
+
+								<TextView
+									android:id="@+id/article_1"
+									android:layout_width="78dp"
+									android:layout_height="30dp"
+									android:layout_gravity="center_horizontal|center"
+									android:layout_marginStart="22dp"
+									android:layout_marginTop="24dp"
+									android:gravity="center"
+									android:text="@string/article_1_string"
+									android:textColor="@color/simpleblog_color"
+									android:textSize="16sp"
+									android:textStyle="bold" />
+
+								<TextView
+									android:id="@+id/text_goes_here"
+									android:layout_width="338dp"
+									android:layout_height="27dp"
+									android:layout_marginStart="25dp"
+									android:layout_marginTop="71dp"
+									android:text="@string/text_goes_here_string"
+									android:textColor="@color/simpleblog_color"
+									android:textSize="14sp" />
+
+							</RelativeLayout>
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/add_button"
+					android:layout_marginTop="702dp"
+					android:layout_marginStart="304dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_1"
+						android:background="@drawable/ellipse_1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="60dp"
+						android:layout_height="60dp" />
+
+
+					<RelativeLayout android:id="@+id/material_symbols_add"
+						android:layout_marginTop="18dp"
+						android:layout_marginStart="18dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector"
+							android:src="@drawable/vector"
+							android:contentDescription="@string/vector"
+							 android:layout_marginStart="5dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="14dp"
+							android:layout_height="14dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/simpleblog"
+					android:layout_width="246dp"
+					android:layout_height="76dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="-7dp"
+					android:layout_marginTop="0dp"
+					android:gravity="center"
+					android:text="@string/simple_blog_string"
+					android:textColor="#A1887F"
+					android:textSize="40sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

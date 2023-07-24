@@ -1,0 +1,152 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/article_details" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_article_details_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__article_details_ek2"
+					android:background="@drawable/_bg__article_details_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="393dp"
+					android:layout_height="852dp" />
+
+
+				<RelativeLayout android:id="@+id/details"
+					android:layout_marginTop="50dp"
+					android:layout_marginStart="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/frame_2"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/article_1"
+							android:textStyle="bold"
+							android:layout_gravity="center_horizontal|center"
+							android:gravity="center"
+							android:textSize="40sp"
+							android:textColor="@color/article_1_color"
+							android:layout_marginLeft="-7dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="186dp"
+							android:layout_height="76dp"
+							android:text="@string/article_1_string"
+							 />
+
+
+						<RelativeLayout android:id="@+id/informations"
+							android:layout_marginTop="59dp"
+							android:layout_marginStart="0dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<View   android:id="@+id/line_1"
+								android:background="@drawable/line_1_shape"
+								 android:layout_marginStart="0dp"
+								android:layout_marginTop="17dp"
+								android:layout_width="353dp"
+								android:layout_height="1dp" />
+
+							<TextView android:id="@+id/ecrit_par_john_doe"
+								android:textStyle="bold"
+								android:layout_gravity="center_horizontal|center"
+								android:gravity="center"
+								android:textSize="12sp"
+								android:textColor="@color/article_1_color"
+								android:layout_marginLeft="-2dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="118dp"
+								android:layout_height="23dp"
+								android:text="@string/ecrit_par_john_doe_string"
+								 />
+
+							<TextView android:id="@+id/_21_novembre_2022"
+								android:layout_gravity="center_horizontal|center"
+								android:gravity="center"
+								android:textSize="12sp"
+								android:textColor="@color/article_1_color"
+								android:layout_marginLeft="243dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="119dp"
+								android:layout_height="23dp"
+								android:text="@string/_21_novembre_2022_string"
+								 />
+
+						</RelativeLayout>
+
+						<TextView android:id="@+id/what_is_lorem_ipsum_lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry__lorem_ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s__when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book__it_has_survived_not_only_five_centuries__but_also_the_leap_into_electronic_typesetting__remaining_essentially_unchanged__it_was_popularised_in_the_1960s_with_the_release_of_letraset_sheets_containing_lorem_ipsum_passages__and_more_recently_with_desktop_publishing_software_like_aldus_pagemaker_including_versions_of_lorem_ipsum_why_do_we_use_it_it_is_a_long_established_fact_that_a_reader_will_be_distracted_by_the_readable_content_of_a_page_when_looking_at_its_layout__the_point_of_using_lorem_ipsum_is_that_it_has_a_more_or_less_normal_distribution_of_letters__as_opposed_to_using__content_here__content_here___making_it_look_like_readable_english__many_desktop_publishing_packages_and_web_page_editors_now_use_lorem_ipsum_as_their_default_model_text__and_a_search_for__lorem_ipsum__will_uncover_many_web_sites_still_in_their_infancy__various_versions_have_evolved_over_the_years__sometimes_by_accident__sometimes_on_purpose__injected_humour_and_the_like__where_does_it_come_from_contrary_to_popular_belief__lorem_ipsum_is_not_simply_random_text__it_has_roots_in_a_piece_of_classical_latin_literature_from_45_bc__making_it_over_2000_years_old__richard_mcclintock__a_latin_professor_at_hampden_sydney_college_in_virginia__looked_up_one_of_the_more_obscure_latin_words__consectetur__from_a_lorem_ipsum_passage__and_going_through_the_cites_of_the_word_in_classical_literature__discovered_the_undoubtable_source__lorem_ipsum_comes_from_sections_1_10_32_and_1_10_33_of__de_finibus_bonorum_et_malorum___the_extremes_of_good_and_evil__by_cicero__written_in_45_bc__this_book_is_a_treatise_on_the_theory_of_ethics__very_popular_during_the_renaissance__the_first_line_of_lorem_ipsum___lorem_ipsum_dolor_sit_amet_____comes_from_a_line_in_section_1_10_32_the_standard_chunk_of_lorem_ipsum_used_since_the_1500s_is_reproduced_below_for_those_interested__sections_1_10_32_and_1_10_33_from__de_finibus_bonorum_et_malorum__by_cicero_are_also_reproduced_in_their_exact_original_form__accompanied_by_english_versions_from_the_1914_translation_by_h__rackham_where_can_i_get_some_there_are_many_variations_of_passages_of_lorem_ipsum_available__but_the_majority_have_suffered_alteration_in_some_form__by_injected_humour__or_randomised_words_which_don_t_look_even_slightly_believable__if_you_are_going_to_use_a_passage_of_lorem_ipsum__you_need_to_be_sure_there_isn_t_anything_embarrassing_hidden_in_the_middle_of_text__all_the_lorem_ipsum_generators_on_the_internet_tend_to_repeat_predefined_chunks_as_necessary__making_this_the_first_true_generator_on_the_internet__it_uses_a_dictionary_of_over_200_latin_words__combined_with_a_handful_of_model_sentence_structures__to_generate_lorem_ipsum_which_looks_reasonable__the_generated_lorem_ipsum_is_therefore_always_free_from_repetition__injected_humour__or_non_characteristic_words_etc_"
+							android:textSize="12sp"
+							android:textColor="@color/article_1_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="87dp"
+							android:layout_width="370dp"
+							android:layout_height="23dp"
+							android:text="@string/text"
+							 />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/back_button"
+					android:layout_marginTop="774dp"
+					android:layout_marginStart="313dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/ellipse_1"
+						android:background="@drawable/ellipse_1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="60dp"
+						android:layout_height="60dp" />
+
+
+					<RelativeLayout android:id="@+id/ri_arrow_go_back_fill"
+						android:layout_marginTop="18dp"
+						android:layout_marginStart="18dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector"
+							android:src="@drawable/vector"
+							android:contentDescription="vector"
+							 android:layout_marginStart="2dp"
+							android:layout_marginTop="1dp"
+							android:layout_width="19dp"
+							android:layout_height="20dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
